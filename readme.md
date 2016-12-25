@@ -10,3 +10,4 @@ NodeMCU part is here: [https://github.com/bkosciow/nodemcu_light_detector](https
 
 See more: [https://koscis.wordpress.com/tag/wc-project/](https://koscis.wordpress.com/tag/wc-project/)
 
+Bulb icons taken from [http://www.iconsdb.com](http://www.iconsdb.com)
