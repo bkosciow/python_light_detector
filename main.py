@@ -10,6 +10,9 @@ HOST = ''
 PORT = 5053
 NODE = "light-wc"
 
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
 
 def get_current_state():
     address = ('192.168.1.255', PORT)

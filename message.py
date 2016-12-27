@@ -35,7 +35,7 @@ class ThreadedUDPServer(socketserver.ThreadingMixIn, socketserver.UDPServer):
         self.communication['state'].state.emit(event)
 
     def close_socket(self):
-        self.socket.shutdown()
+        self.shutdown()
 
 
 def run_server(host, port, node_name, communication):
