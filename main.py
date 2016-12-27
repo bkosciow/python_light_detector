@@ -3,6 +3,7 @@ import signals
 import view
 import socket
 import json
+import os
 
 __author__ = 'Bartosz Kościow'
 
